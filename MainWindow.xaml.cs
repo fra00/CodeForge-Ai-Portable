@@ -29,8 +29,8 @@ namespace CodeForgePortable
         {
             await webView.EnsureCoreWebView2Async(null);
             // Ottieni il percorso del file HTML
-            string htmlFilePath = "http://localhost:5173/";
-            //string htmlFilePath = "https://llm-codeforge.netlify.app/";
+            //string htmlFilePath = "http://localhost:5173/";
+            string htmlFilePath = "https://llm-codeforge.netlify.app/";
             webView.Source = new Uri(htmlFilePath);
             webView.CoreWebView2.WebMessageReceived += CoreWebView2_WebMessageReceived;
         }
