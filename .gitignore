@@ -2,5 +2,5 @@
 # Il file gitignore è stato creato automaticamente da Microsoft(R) Visual Studio.
 ################################################################################
 
-/bin/Debug/net8.0-windows
+/bin
 /obj
